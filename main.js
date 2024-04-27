@@ -74,7 +74,7 @@ isDebugMode();
  *
  */
 
-// Функції для кодування даних з довільною кількістю аргументів
+
 function encodeToBase64(...args) {
   const concatenatedString = args.join(':');
   const encoded = Buffer.from(concatenatedString).toString('base64');
